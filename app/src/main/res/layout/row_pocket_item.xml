@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/link_title"
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@+id/link_image"
+        android:padding="8dp"
+        android:text="Nazwa elementu" />
+
+    <TextView
+        android:id="@+id/link_reference"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/link_title"
+        android:layout_toLeftOf="@+id/link_image"
+        android:alpha="0.75"
+        android:padding="8dp"
+        android:text="Referencja" />
+
+    <ImageView
+        android:id="@+id/link_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:padding="8dp"
+        android:src="@android:drawable/ic_menu_call" />
+
+</RelativeLayout>

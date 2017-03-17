@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Pocket</string>
+
+    <string-array name="link_types">
+        <item>Numer telefonu</item>
+        <item>Adres WWW</item>
+    </string-array>
+
+    <integer-array name="link_types_mapping">
+        <item>1</item>
+        <item>2</item>
+    </integer-array>
+
+</resources>
